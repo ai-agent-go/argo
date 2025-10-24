@@ -9,10 +9,12 @@
 		],
     "allowJs": false,
     "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
     "module": "ESNext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -28,7 +30,7 @@
     },
     "types": ["vite-plugin-svgr/client", "vite/client"]
   },
-  "include": ["src", "public/live2d"],
+  "include": ["src", "public/live2d", "src/types/react-router.d.ts"],
   "exclude": ["node_modules", "dist", "lib/live2d"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
