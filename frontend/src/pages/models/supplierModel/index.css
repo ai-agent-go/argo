@@ -1,0 +1,8 @@
+.arco-modal-content{
+  padding: 24px 32px;
+}
+
+.arco-input-group-suffix > svg {
+  font-size: 20px !important;
+  stroke: #565759 !important;
+}

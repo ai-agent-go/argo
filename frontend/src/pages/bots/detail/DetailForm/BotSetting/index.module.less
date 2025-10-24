@@ -1,0 +1,81 @@
+.popover {
+  :global {
+    .arco-popover-content {
+      border-radius: 12px;
+      border: unset;
+      padding: 0 30px 30px;
+    }
+  }
+}
+
+.Tooltip {
+
+  :global {
+    .arco-tooltip-content {
+      height: 100%;
+      background: transparent;
+      box-shadow: none;
+    }
+    .arco-tooltip-content-inner {
+      height: 100%;
+    }
+  }
+}
+.selectContainer {
+  :global {
+    .arco-select-popup {
+      box-shadow: unset !important;
+      width: max-content !important;
+      overflow: visible !important;
+      box-sizing: unset !important;
+      padding: 0 !important;
+      border: none !important;
+      border-radius: unset !important;
+      background: transparent !important;
+    }
+    .arco-select-popup-inner {
+      box-shadow: 0px 2px 10px 0px #00000026;
+      border-radius: 8px;
+      background: #FFFFFF;
+      .arco-select-option-hover {
+        background: unset;
+      }
+    }
+  }
+}
+.selectWrap {
+  background: #fff;
+  width: 83px !important;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0px 2px 10px 0px #00000026;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+ 
+  .item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #03060E;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    height: 29px;
+    margin-bottom: 4px !important;
+    &:hover {
+      background: #F9F9F9;
+      border-radius: 6px !important;
+    }
+  }
+
+}
+
+.formWrap {
+  input {
+    text-align: center;
+    font-weight: 600;
+  }
+}

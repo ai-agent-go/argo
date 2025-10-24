@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html,
+	pre {
+		font-family: 'SF Pro Display', -apple-system, 'Arimo', ui-sans-serif, system-ui, 'Segoe UI', Roboto, Ubuntu,
+			Cantarell, 'Noto Sans', sans-serif, 'Helvetica Neue', Arial, 'Apple Color Emoji',
+			'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	}
+
+	pre {
+		white-space: pre-wrap;
+	}
+
+	ol, ul, li {
+    margin: 0 !important;
+		line-height: 2;
+	}
+}
+
+
+@layer utilities {
+	.no-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+
+	.no-scrollbar {
+		scrollbar-width: none;
+		-ms-overflow-style: none;
+	}
+	.mask {
+		mask: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%);
+	}
+
+	.no-focusBorder:focus {
+		border-color: transparent;
+	}
+}

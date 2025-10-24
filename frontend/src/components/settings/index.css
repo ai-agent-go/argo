@@ -1,0 +1,12 @@
+.modal .arco-modal-content{
+  padding: 0;
+}
+
+.arco-form-label-item{
+  margin-bottom: 6px !important;
+}
+
+.arco-form-label-item > label{
+  font-weight: 500 !important;
+  color: #03060E !important;
+}

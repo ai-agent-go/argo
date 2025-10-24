@@ -1,0 +1,125 @@
+
+
+.markdown-body {
+  background: transparent;
+  color: #03060E !important;
+  // white-space: pre-wrap !important;
+  code {
+    white-space: break-spaces !important;
+    span {
+      flex-wrap: wrap;
+      display: flex;
+      align-items: center;
+    }
+  }
+  p {
+    white-space: pre-line;
+  }
+  li {
+    list-style: initial !important;
+  }
+  pre {
+    background: transparent !important;
+    padding: 0 !important;
+  }
+  img {
+    background: transparent !important;
+  }
+  table {
+    max-width: 100%;
+    background: #fff !important;
+    margin-bottom: 18px;
+    margin-top: 10px;
+    border: solid 1px #dedede !important;
+  
+    thead {
+      background: #f7f8f7 !important;
+      font-weight: 700;
+      th {
+        padding: 7px 9px 9px;
+        background: #fff !important;
+        color: rgba(0, 0, 0, .8);
+        text-align: left;
+        display: table-cell;
+        line-height: 1.6;
+      }
+      
+    }
+  
+    tbody {
+      tr {
+        background: #f8f8f7 !important;
+
+      }
+      tr:nth-of-type(even) {
+        background: #f8f8f7 !important;
+      }
+      td {
+        padding: 8px 9px;
+        display: table-cell;
+        line-height: 1.6;
+      }
+    }
+  }
+  :global {
+    .highlight pre {
+      padding: 0 !important;
+      background: transparent !important;
+    }
+    .katex {
+      user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    }
+  }
+}
+
+
+.code_editor_style {
+  border-radius: 8px;
+  // margin: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: #f6f6f6;
+  // padding: 0 20px !important;
+
+  code {
+    background: transparent !important;
+  }
+  span {
+    display: inline !important;
+  }
+}
+
+.code_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: #f6f6f6;
+  border-radius: 6px 6px 0 0;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgb(82, 82, 82);
+  p{
+    margin-bottom: 0;
+  }
+}
+
+.copy_button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  color: #909090;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.think {
+  p {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
