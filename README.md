@@ -153,15 +153,6 @@ Feel free to join our community and share your thoughts and feedback! [Discord](
 
 ---
 
-### Quick Desktop App Installation
-
-Download, double-click, and complete installation.
-
-- Macos silicon: [argo-0.3.1-osx-installer.dmg](https://github.com/xark-argo/argo/releases/download/v0.3.1/argo-0.3.1-osx-installer.dmg)
-- Macos intel: [argo-0.3.1-mac-intel-installer.dmg](https://github.com/xark-argo/argo/releases/download/v0.3.1/argo-0.3.1-mac-intel-installer.dmg)
-- Windows 64bit (Win 10 and above): [argo-0.3.1-windows-x64-installer.exe](https://github.com/xark-argo/argo/releases/download/v0.3.1/argo-0.3.1-windows-installer.exe)
-
----
 
 ### Quick Start with [Docker](https://www.docker.com/) 🐳
 
@@ -199,8 +190,9 @@ If you want to run LLM models in a GPU-enabled environment, use:
 
 Once installed, you can access Argo at http://localhost:38888.
 
-# 🖥️ Develop
+# 🖥️ Quick start in Developing Mode
 
+Use Python and npm to start and develop:
 Refer to the [development documentation](docs/DEV_GUIDE.md)
 
 # 🤝 Contributing
