@@ -7,7 +7,7 @@ from core.errors.errcode import Errcode
 from core.i18n.translation import translation_loader
 from services.tool import install_uv_npx
 
-GITHUB_DEPENDENCIES_BASE_URL = "https://github.com/xark-argo/argo-dependency/releases/download/v0.0.1/"
+GITHUB_DEPENDENCIES_BASE_URL = "https://github.com/ai-agent-go/argo-dependency/releases/download/v0.0.1/"
 GITEE_DEPENDENCIES_BASE_URL = "https://gitee.com/xark-argo/argo-dependency/releases/download/v0.0.1/"
 
 BUN_PACKAGES = {
